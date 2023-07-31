@@ -594,6 +594,8 @@ img {
 .footer-subscribe-form {
   display: flex;
   margin-left: 80px;
+  width: 453px;
+  height: 80px;
 }
 .footer-subscribe-title {
   color: var(--white, #fff);
@@ -604,6 +606,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
   width: 264px;
 }
@@ -626,14 +629,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: flex-end;
   gap: 16px;
   color: var(--white, #fff);
   text-align: center;
   border: none;
+  align-self: flex-end;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  width: 160px;
+  width: 165px;
   height: 40px;
 }
 
@@ -702,4 +705,8 @@ img {
 }
 .modal-btn-close:focus .modal-icon {
   fill: #ffffff;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
 }

@@ -497,8 +497,13 @@
         <form class="footer-subscribe-form">
           <label class="footer-subscribe-title"
             >Subscribe
-            <input class="footer-input-email" type="email" value="E-mail"
-          /></label>
+            <input
+              class="footer-input-email"
+              name="email"
+              type="email"
+              placeholder="E-mail"
+            />
+          </label>
           <button class="footer-subscribe-btn" type="submit">
             Subscribe
             <svg class="footer-subscribe-icon" width="24" height="24">
@@ -516,8 +521,28 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
+
+        <form class="modal-form">
+          <h3>Leave your contacts and we will call you back</h3>
+          <label for="name"
+            >Name
+            <input type="text" id="name" />
+          </label>
+          <label for="phone"
+            >Phone<input type="tel" name="phone" id="phone"
+          /></label>
+          <label for="email"
+            >E-mail<input type="email" name="email" id="email"
+          /></label>
+          <label for=""
+            >Comment
+            <textarea name="text" id="" rows="5"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </div>
       </div>
-    </div>
+        </form>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
