@@ -523,22 +523,24 @@
         </button>
 
         <form class="modal-form">
-          <h3>Leave your contacts and we will call you back</h3>
-          <label for="name"
-            >Name
-            <input type="text" id="name" />
-          </label>
-          <label for="phone"
-            >Phone<input type="tel" name="phone" id="phone"
-          /></label>
-          <label for="email"
-            >E-mail<input type="email" name="email" id="email"
-          /></label>
-          <label for=""
-            >Comment
-            <textarea name="text" id="" rows="5"></textarea>
-          </label>
-          <button type="submit">Send</button>
+          <h3 class="modal-form-title">Leave your contacts and we will call you back</h3>
+          <div class="modal-form-lable">
+            <label class="modal-lable" for="name" 
+              >Name
+              <input type="text" id="name"/>
+            </label>
+            <label class="modal-lable" for="phone"
+              >Phone<input type="tel" name="phone" id="phone"
+            /></label>
+            <label class="modal-lable" for="email"
+              >E-mail<input type="email" name="email" id="email"
+            /></label>
+            <label class="modal-lable" for="text"
+              >Comment
+              <textarea name="text" id="" rows="5" placeholder="Text input"></textarea>
+            </label>
+          </div>
+          <button class="modal-form-btn" type="submit">Send</button>
         </div>
       </div>
         </form>

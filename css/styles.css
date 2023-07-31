@@ -618,11 +618,11 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: var(--navyblue, #2e2f42);
   color: var(--white, #fff);
-  font-family: Roboto;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   margin-right: 24px;
+  padding-left: 16px;
 }
 
 .footer-subscribe-btn {
@@ -638,9 +638,6 @@ img {
   background: var(--iris, #4d5ae5);
   width: 165px;
   height: 40px;
-}
-
-.footer-subscribe-icon {
 }
 
 /* Modal-Window */
@@ -707,6 +704,52 @@ img {
   fill: #ffffff;
 }
 .modal-form {
+}
+.modal-form-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 72px;
+  margin-bottom: 16px;
+}
+.modal-form-lable {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.modal-lable {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  width: 360px;
+  color: var(--lightslate, #8e8f99);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.modal-form-btn {
+  display: block;
+  margin: 24px auto;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+  padding-left: 16px;
+  padding-top: 8px;
 }
