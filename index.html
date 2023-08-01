@@ -524,38 +524,53 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
+
+        <p class="modal-form-title">
+          Leave your contacts and we will call you back
+        </p>
+
         <form class="modal-form">
-          <p class="modal-form-title">
-            Leave your contacts and we will call you back
-          </p>
           <div class="modal-form-lable">
-            <label class="modal-lable" for="name"
-              >Name
-              <input class="modal-form-input" type="text" id="name" />
-            </label>
-            <label class="modal-lable" for="phone"
-              >Phone<input
+            <label class="modal-lable" for="user-name">Name</label>
+            <div class="modal-label-block">
+              <input
+                class="modal-form-input"
+                name="user-name"
+                type="text"
+                id="user-name"
+              />
+              <svg class="modal-label-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-frame1"></use>
+              </svg>
+            </div>
+
+            <div class="modal-label-block">
+              <label class="modal-lable" for="phone">Phone</label>
+              <input
                 class="modal-form-input"
                 type="tel"
                 name="phone"
                 id="phone"
-            /></label>
-            <label class="modal-lable" for="email"
-              >E-mail<input
+              />
+            </div>
+            <div class="modal-label-block">
+              <label class="modal-lable" for="email">E-mail</label>
+              <input
                 class="modal-form-input"
                 type="email"
                 name="email"
                 id="email"
-            /></label>
-            <label class="modal-lable" for="text"
-              >Comment
+              />
+            </div>
+            <div class="modal-label-block">
+              <label class="modal-lable" for="user-comment">Comment</label>
               <textarea
-                name="text"
-                id="text"
+                name="user-comment"
+                id="user-comment"
                 rows="5"
                 placeholder="Text input"
               ></textarea>
-            </label>
+            </div>
           </div>
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
