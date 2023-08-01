@@ -607,7 +607,6 @@ img {
   height: 80px;
 }
 .footer-subscribe-email {
-  display: flex;
   gap: 24px;
 }
 
@@ -617,10 +616,10 @@ img {
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--navyblue, #2e2f42);
+  background-color: transparent;
   color: var(--white, #fff);
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   margin-right: 24px;
   padding-left: 16px;
