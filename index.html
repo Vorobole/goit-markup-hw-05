@@ -494,23 +494,26 @@
             </li>
           </ul>
         </div>
-        <form class="footer-subscribe-form">
-          <label class="footer-subscribe-title"
-            >Subscribe
-            <input
-              class="footer-input-email"
-              name="email"
-              type="email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="footer-subscribe-btn" type="submit">
-            Subscribe
-            <svg class="footer-subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-frame3"></use>
-            </svg>
-          </button>
-        </form>
+
+        <div class="footter-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-email">
+              <input
+                class="footer-input-email"
+                name="email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-subscribe-btn" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal Window -->
@@ -521,31 +524,43 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
-
         <form class="modal-form">
-          <p class="modal-form-title">Leave your contacts and we will call you back</p>
+          <p class="modal-form-title">
+            Leave your contacts and we will call you back
+          </p>
           <div class="modal-form-lable">
-            <label class="modal-lable" for="name" 
+            <label class="modal-lable" for="name"
               >Name
-              <input class="modal-form-input" type="text" id="name"/>
+              <input class="modal-form-input" type="text" id="name" />
             </label>
             <label class="modal-lable" for="phone"
-              >Phone<input class="modal-form-input" type="tel" name="phone" id="phone"
+              >Phone<input
+                class="modal-form-input"
+                type="tel"
+                name="phone"
+                id="phone"
             /></label>
             <label class="modal-lable" for="email"
-              >E-mail<input class="modal-form-input" type="email" name="email" id="email"
+              >E-mail<input
+                class="modal-form-input"
+                type="email"
+                name="email"
+                id="email"
             /></label>
             <label class="modal-lable" for="text"
               >Comment
-              <textarea name="text" id="" rows="5" placeholder="Text input"></textarea>
+              <textarea
+                name="text"
+                id="text"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
             </label>
           </div>
-          <label>
-    <input type="checkbox" name="" value="" />
           <button class="modal-form-btn" type="submit">Send</button>
-        </div>
-      </div>
         </form>
+      </div>
+    </div>
 
     <script src="./js/modal.js"></script>
   </body>
