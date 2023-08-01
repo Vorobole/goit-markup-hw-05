@@ -753,7 +753,6 @@ img {
   border-color: #4d5ae5;
 }
 .modal-label-icon {
-  fill: var(--navyblue);
   position: absolute;
   left: 16px;
   top: 50%;
