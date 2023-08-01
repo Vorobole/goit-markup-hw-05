@@ -612,7 +612,7 @@ img {
 }
 
 .footer-input-email {
-  height: 40px;
+  min-height: 40px;
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -703,6 +703,7 @@ img {
 .modal-btn-close:focus .modal-icon {
   fill: #ffffff;
 }
+
 .modal-form {
 }
 .modal-form-title {
@@ -727,9 +728,15 @@ img {
   flex-direction: column;
   width: 360px;
   color: var(--lightslate, #8e8f99);
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+.modal-form-input {
+  min-height: 40px;
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  border-radius: 4px;
 }
 .modal-form-btn {
   display: block;
@@ -752,4 +759,6 @@ textarea {
   resize: none;
   padding-left: 16px;
   padding-top: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
