@@ -805,11 +805,18 @@ textarea:focus {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox-input:checked .modal-checkbox-label-span {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
+
+.modal-checkbox-icon {
+  fill: transparent;
+  background-color: transparent;
 }
+
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-icon {
+  background-color: var(--ocean);
+  fill: var(--cloud);
+  border: none;
+}
+
 .modal-checkbox-link {
   color: var(--iris);
 }
