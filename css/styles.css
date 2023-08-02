@@ -817,7 +817,7 @@ textarea:focus {
 
 .modal-checkbox-input[type="checkbox"]:checked
   + .modal-checkbox-label
-  .modal-checkbox-icon {
+  .modal-checkbox-label-span {
   background-color: var(--ocean);
   fill: var(--cloud);
   border: none;
