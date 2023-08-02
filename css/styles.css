@@ -810,10 +810,10 @@ textarea:focus {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-icon {
+/* .modal-checkbox-icon {
   fill: transparent;
   background-color: transparent;
-}
+} */
 
 .modal-checkbox-input[type="checkbox"]:checked
   + .modal-checkbox-label
