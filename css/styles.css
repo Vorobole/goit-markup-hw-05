@@ -286,8 +286,7 @@ img {
 /* ===========================index-section4-Our Team============================ */
 .team {
   background: var(--cloud, #f4f4fd);
-  max-width: 1440px;
-  margin: 0 auto;
+
   padding: 120px 0;
 }
 
@@ -527,8 +526,7 @@ img {
 /* ==================================footer=============================== */
 .footer {
   background: var(--navyblue);
-  max-width: 1440px;
-  margin: 0 auto;
+
   padding: 100px 0;
 }
 .footer-logo {
